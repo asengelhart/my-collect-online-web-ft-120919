@@ -1,3 +1,6 @@
 def my_collect(array)
-  if !
+  if !block_given?
+    return array
+  end 
+  
 end 
